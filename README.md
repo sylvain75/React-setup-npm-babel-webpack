@@ -83,6 +83,7 @@ module.exports = {
 webpack.config.js file => Webpack configurations => in the root directory
 
 __Usual folder structure:__
+
 ```/app
   - components
   - containers
@@ -95,7 +96,7 @@ __Usual folder structure:__
   __index_bundle.js__
 package.json
 webpack.config.js
-.gitignore```
+.gitignore ```
 
 ## Babel
 Babel.js is a wonderful tool for compiling your JavaScript. With Webpack you tell it which transformations to make on your code, while Babel is the specific transformation itself. In terms of React, Babel is going to allow us to transform our JSX and ES2016 into actual JavaScript.
